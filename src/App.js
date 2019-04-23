@@ -46,7 +46,15 @@ class App extends Component {
               <li>TEAM</li>
               <li>CONTACT</li>
             </ul>
-            <div className={"side-menu-" + this.state.tab} />
+            <div className={"side-menu-" + this.state.tab}>
+              <ul className="div2">
+                <li>SERVICES</li>
+                <li>PORTFOLIO</li>
+                <li>ABOUT</li>
+                <li>TEAM</li>
+                <li>CONTACT</li>
+              </ul>
+            </div>
           </nav>
           <body className="welcome">
             <h2 className="italics">Welcome to Our Studio!</h2>
